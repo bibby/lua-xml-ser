@@ -1,4 +1,4 @@
-# lua-xmlser
+# lua-xml-ser
 
 A simple xml serializer for lua. MIT License.
 
@@ -65,7 +65,7 @@ The table spec to describe an xml element is an associative array of a these kno
 	"escapeAttr" : Safe-xml escaping on tag attributes.
 	Not sure why you'd disable this.
 	Default = true
-````
+```
 
 # xml-serde
 
