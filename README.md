@@ -1,8 +1,9 @@
-# lua-xml-ser
+lua-xml-ser
+===========
 
 A simple xml serializer for lua. MIT License.
 
----
+----
 
 ## tldr;
 
@@ -45,7 +46,8 @@ The table spec to describe an xml element is an associative array of a these kno
 ```
 
 ## Using the serializer
-````
+
+```
     xmlser = require("xml-ser")
 	xmlser.serialize( xmlSpec [,options])
 	-- or
@@ -67,7 +69,8 @@ The table spec to describe an xml element is an associative array of a these kno
 	Default = true
 ```
 
-# xml-serde
+xml-serde
+=========
 
 For consistent serialization and deserialization, you can use `xml-serde`. The serialization component is covered above. For deserialization, the heavy lifting is done [SLAXML][slax], a pretty good parser. Using its custom callbacks, `xml-serde` marshals the data into the table spec format expected by `xml-ser`, so you get a consistent format going in and out.
 
